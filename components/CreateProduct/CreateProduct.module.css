@@ -1,0 +1,10 @@
+.container {
+  max-height: calc(100vh - var(--header-height) - 67px);
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
